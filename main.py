@@ -9,7 +9,7 @@ while True:
     display_menu()
     # accepting user option
     user_option = int(input("Kindly choose from the following options\n"))
-    # check if user is 1
+    # check if user option is 1
     if user_option == 1:
         add_tasks()
     elif user_option == 2:
