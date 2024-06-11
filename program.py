@@ -42,6 +42,10 @@ def delete():
           print(f"Task '{delete_task}' successfully deleted!!!")
      else:
           print("Task list is empty. Please add task.")
+
+# Exit Function
+def exit_task():
+     exit(1)
      
 
 # view function method 1
@@ -51,6 +55,3 @@ def delete():
 #      else:
 #           print("There are no tasks to view")
 
-#exit function
-def exit():
-    exit(1) 

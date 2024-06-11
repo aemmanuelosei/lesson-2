@@ -19,6 +19,6 @@ while True:
     elif user_option == 4:
         delete()
     elif user_option == 5:
-        exit()
+         exit_task()
     else:
         print("Invalid option. kindly choose an option between 1 - 5")
