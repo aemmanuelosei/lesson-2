@@ -13,9 +13,6 @@ def view_tasks():
           for i, task in enumerate(tasks, 1):
                print(f"{i}. {task}")
 
-#exit function
-def exit():
-    exit(1) 
 
 # menu function
 def display_menu():
@@ -53,3 +50,7 @@ def delete():
 #           print(tasks)
 #      else:
 #           print("There are no tasks to view")
+
+#exit function
+def exit():
+    exit(1) 
